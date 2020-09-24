@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
+
+
+.title{
+    background-color: #bd1212;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    font-family: 'Vollkorn', serif;
+    align-items: center;
+    padding: 2rem;
+
+}
+a{
+    text-decoration: None;
+    color:#fff;
+}
+ul {
+    list-style-type: none;
+  }
+
+
+.profile-picture{
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+}
+.name{
+    margin: 0px;
+    flex-direction: row;
+    justify-content: right;
+    
+
+}
+.name a{
+    text-decoration: none;
+    
+
+}
+.desc{
+    font-size: 1rem;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: right;
+    font-family: 'Source Code Pro', monospace;
+}
+/* Education */
+.education{
+    font-size: 1.2rem;
+    font-family: 'Vollkorn', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2-title{
+    font-size:3rem;
+    margin-bottom: 0px;
+    margin-left: 2rem;
+    margin-top: 0px;
+    color:#bd1212;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.ul-class{
+    font-family: 'Roboto', serif;
+
+}
+
+.title-text{
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.desc-padding{
+    padding: 1.3rem;
+    margin-right: 2rem;
+}
+/* Projects */
+.projects a{
+    background-color:#bd1212;
+    color: white;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+.projects a:hover {
+        background-color: #322f30;
+        color:white;
+        transition: all 1s;
+
+      }
+
+      
+/* Certificates */
+.title-text a{
+    text-decoration: none;
+    color: #121212;
+
+}
+
+/* Skills */
+
+/* Footer */
+.footer{
+    background-color: #bd1212;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.social-footer{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.left-footer{
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+ .social-footer a{
+    text-decoration: none;
+    margin: 1rem;
+    color: #ffffff;
+}
+.right-footer{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.social-icon {
+        color: #fff;
+        size: 3rem;
+        justify-content: center;
+    }
+    
+ .social-icons li {
+        vertical-align: top;
+        display: inline;
+    }
+
+ .social-icons a {
+        color: #fff;
+        text-decoration: none;
+       
+    }
+
+    
+ .fa-instagram {
+    padding:20px 24px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-instagram:hover {
+    background-color: #e1306c;
+}
+ .fa-twitter {
+        padding:20px 24px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+
+ .fa-twitter:hover {
+        background-color: #00aced;
+    }
+   
+ .fa-linkedin {
+        padding:20px 24px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+
+ .fa-linkedin:hover {
+        background-color: #0073a4;
+    }
+
+ .fa-github {
+        padding:20px 24px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+
+.fa-github:hover {
+        background-color: #5a32a3;
+    }
