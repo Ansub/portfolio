@@ -5,6 +5,12 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
 
 
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .title{
     background-color: #bd1212;
     display: flex;
@@ -33,6 +39,7 @@ ul {
     margin: 0px;
     flex-direction: row;
     justify-content: right;
+    font-size:4rem;
     
 
 }
